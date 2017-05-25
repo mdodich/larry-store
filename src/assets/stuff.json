@@ -1,0 +1,22 @@
+[
+    { 
+        "name": "Teddy Bear",
+        "price": 12,
+        "id": 1
+    },
+    {
+        "name": "Puzzles", 
+        "price": 34,
+        "id": 2
+    },
+    {
+        "name": "Fossils",
+        "price": 10000,
+        "id": 3
+    },
+    {
+        "name": "Bear Food",
+        "price": 0.5,
+        "id": 4
+    }
+]

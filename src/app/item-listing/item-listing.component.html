@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let item of list">
+    {{item.name | uppercase}} - {{item.price | currency:"USD":true:"1.2" }}
+    <button (click)="pressBuy.emit(item)">Buy</button>
+  </li>
+  <button (click)="pressClear.emit()">Clear</button>
+</ul>
