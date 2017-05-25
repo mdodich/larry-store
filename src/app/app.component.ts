@@ -16,7 +16,10 @@ export class AppComponent implements OnInit {
   visibleStuff$;
   isOpen: true;
 
+
+
   constructor(public stuffService: StuffService, public inventoryService: InventoryService) {
+    //t
   }
 
   ngOnInit() {
