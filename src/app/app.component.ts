@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
           return x.id === item.id;
         })[0];
         item.qty = arr2match.quantity;
-        console.dir(item);
+        console.dir(item); //comment2
         return item;
         // return {
         //   name: item.name,
