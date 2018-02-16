@@ -47,7 +47,7 @@ export class AppComponent implements OnInit {
   }
 
   removeOutOfStock(stuffs) {
-    console.log('branch message');
+    console.log('develop message');
     return stuffs && stuffs.filter(item => item.qty)
   }
 
